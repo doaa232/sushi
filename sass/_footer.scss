@@ -1,0 +1,55 @@
+
+
+footer {
+    width: 100%;
+    height: 72vh;
+    background-color: #111;
+    display: grid;
+    color: #fff;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    p{
+        margin-bottom: 7px;
+        font-weight: 300;
+    }
+
+    .icons {
+        margin-top: 10px;
+
+        img {
+            margin-right: 10px;
+            height: 28px;
+            cursor: pointer;
+            @include transition;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .parts{
+        grid-template-columns: 1fr;
+        grid-gap: 9px;
+
+        .part{
+            width: 78vw;
+            margin: 31px 50px 47px;
+        }
+    }
+    
+    .items {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 9px;
+        
+    }
+
+}

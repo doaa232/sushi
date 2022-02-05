@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+
+        
+
+        <header>
+            <div class="navbar">
+                <img src="img/logo.png" alt="">
+                <nav class="nav" :class="{open : showMenu}">
+                    <ul class="menu-nav" :class="{open : showMenu}">
+                        <li class="menu-nav_item" :class="{open : showMenu}"><a href="#" class="active">Home</a></li>
+                        <li class="menu-nav_item" :class="{open : showMenu}"><a href="#">Product</a></li>
+                        <li class="menu-nav_item" :class="{open : showMenu}"><a href="#">Promo</a></li>
+                        <li class="menu-nav_item" :class="{open : showMenu}"><a href="#">About</a></li>
+                        <li class="menu-nav_item" :class="{open : showMenu}"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-btn" @click="showMenu=!showMenu">
+                    <span  :class="{open : showMenu}" class="menu-btn__burger"></span>
+                </div>
+                <img src="img/Search.png" alt="">
+            </div>
+            <section class="title">
+                <h1>Delicious <span>Sushi</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit nostrum illum beatae sequi incidunt quae, natus.</p>
+                <button>Order Now</button>
+            </section>
+        </header>
+
+        
+
+        <div class="Philosophy">
+            <div class="scenery">
+                <img src="img/img-1.png" alt="" class="img1">
+                <img src="img/img-2.png" alt="" class="img2">
+            </div>
+            <h2>Best Seller</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus odit ipsa culpa fuga! Recusandae .</p>
+            <div class="dishs">
+                <div class="dish">
+                    <img src="img/img-3.png" alt="">
+                    <h3>Title Here</h3>
+                    <p>Lorem ipsum dolor sit, amet con sectetur elit.</p>
+                </div>
+                <div class="dish">
+                    <img src="img/img-3.png" alt="">
+                    <h3>Title Here</h3>
+                    <p>Lorem ipsum dolor sit, amet con sectetur elit.</p>
+                </div>
+                <div class="dish">
+                    <img src="img/img-4.png" alt="">
+                    <h3>Title Here</h3>
+                    <p>Lorem ipsum dolor sit, amet con sectetur elit.</p>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="best_dish">
+            <img src="img/Mask3.png" alt="">
+            <div class="info">
+                <h3>Best Tasty</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit nostrum illum beatae sequi incidunt quae, natus.</p>
+                <button>More</button>
+            </div>
+        </div>
+
+        
+
+        <div class="statistics">
+            <h2>Statistics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus odit ipsa culpa fuga! Recusandae .</p>
+            <div>
+                <span>123 <span>Store</span></span>
+                <span>100 <span>Menu</span></span>
+                <span>200 <span>Chef</span></span>
+            </div>
+        </div>
+
+
+
+        <div class="delicious_dish">
+            <div class="info">
+                <h3>Delicious</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit nostrum illum beatae sequi incidunt quae, natus.</p>
+                <button>Order Now</button>
+            </div>
+            <img src="img/Mask.png" alt="">
+            <div class="scenery">
+                <img src="img/img-5.png" alt="" class="img1">
+                <img src="img/img-2.png" alt="" class="img2">
+                <img src="img/img-8.png" alt="" class="img1">
+                <img src="img/img-1.png" alt="" class="img2">
+            </div>
+        </div>
+
+        <div class="class">
+            <img src="img/Mask2.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit nostrum illum beatae sequi incidunt quae, natus.</p>
+            <h2>phoebe Frazier</h2>
+        </div>
+
+        <div class="subscribe">
+            <h2>Subscribe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit nostrum illum beatae sequi incidunt quae, natus.</p>
+            <div>Your Email <span>subscribe</span> </div>
+            <div class="scenery">
+                <img src="img/img-6.png" alt="" class="img1">
+                <img src="img/img-2.png" alt="" class="img2">
+                <img src="img/img-7.png" alt="" class="img1">
+            </div>
+        </div>
+
+
+
+        <footer>
+            <div class="parts">
+                <div class="part">
+                    <h2>Title Here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, perspiciatis et! Quas, dolorem ab. Repellendus modi eveniet omnis hic debitis, numquam, tempora, pariatur incidunt officiis nisi corrupti repudiandae neque provident.</p>
+                    <div class="icons">
+                        <img src="img/Instagram.png" alt="">
+                        <img src="img/Facebook.png" alt="">
+                        <img src="img/Twitter.png" alt="">
+                        <img src="img/WhatsApp.png" alt="">
+                    </div>
+                </div>
+                <div class="part">
+                    <div class="items">
+                        <div class="item">
+                            <h2>About</h2>
+                            <p>History</p>
+                            <p>Our Team</p>
+                            <p>Brand Guidelines</p>
+                            <p>Terms & Condition</p>
+                            <p>Privacy policy</p>
+                        </div>
+                        <div class="item">
+                            <h2>Services</h2>
+                            <p>How to Order</p>
+                            <p>Our Product</p>
+                            <p>Order status</p>
+                            <p>Promo</p>
+                            <p>Payment Method</p>
+                        </div>
+                        <div class="item">
+                            <h2>Contact Us</h2>
+                            <p>Help</p>
+                            <p>Privacy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         
+
+    </div> 
+
+    <script src="js/vue.js"></script>
+    <script src="js/main.js"></script>
+            
+</body>
+</html>

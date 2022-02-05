@@ -1,0 +1,39 @@
+@import 'config';
+@import 'header';
+@import 'Philosophy';
+@import 'best_dish';
+@import 'delicious_dish';
+@import 'statistics';
+@import 'subscribe';
+@import 'footer';
+@import 'menu';
+@import 'responsive';
+
+body{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+    &:active {
+        transform: translateY(-2px);
+        font-weight: bold;
+    }
+}

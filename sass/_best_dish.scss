@@ -1,0 +1,44 @@
+
+.best_dish {
+    margin-top: 20px;
+    overflow: hidden;
+    height: 87vh;
+    background: url(../img/img-10.png);
+    background-size: 100% 100%;
+
+    img {
+        height: 290px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .info {
+        margin-top: 30px;
+
+        h3 {
+            @include flexCenter;
+            text-transform: uppercase;
+            font-size: 27px;
+            margin-bottom: 10px;
+            color: $primary-color;
+        }
+
+        p {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            color: $primary-color;
+        }
+
+        button {
+            @include flexCenter;
+            padding: 8px 51px;
+            border-radius: 23px;
+            margin: 8px auto;
+            color: #fff;
+            background-color: $primary-color;
+        }
+    }
+
+
+}

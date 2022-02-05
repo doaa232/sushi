@@ -1,0 +1,50 @@
+
+
+.statistics {
+    padding-top: 15px;
+    width: 100%;
+    height: 48vh;
+    background-color: #ff7f7f;
+
+    h2 {
+        @include flexCenter;
+        color: white;
+        font-size: 33px;
+        text-transform: uppercase;
+    }
+
+    p{
+        color: white;
+        width: 65%;
+        margin: 6px auto;
+        text-align: center;
+    }
+    div {
+        @include flexCenter;
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 17px;
+
+        >span {
+            text-transform: uppercase;
+            color: white;
+            width: 123px;
+            margin-right: 40px;
+            background-color: $primary-color;
+            display: inline-block;
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            height: 120px;
+            padding: 35px  8px;
+            font-size: 43px;
+            font-weight: bold;
+            line-height: .6;
+
+            span {
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+    }
+}

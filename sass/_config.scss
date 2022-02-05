@@ -1,0 +1,29 @@
+$primary-color:#ff7f7f;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin transition {
+    transition: all .5s ease-in-out;
+}
+
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}

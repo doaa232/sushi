@@ -1,0 +1,77 @@
+
+
+
+.subscribe {
+    overflow: hidden;
+    width: 100%;
+    height: 53vh;
+    background: url(../img/Shape4.png);
+    background-size: 100% 100%;
+    padding-top: 25px;
+    position: relative;
+
+    h2 {
+        @include flexCenter;
+        margin: 20px auto;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-size: calc(3vw + 1em);
+    }
+
+    p {
+        width: 70%;
+        margin: 10px auto;
+        text-align: center;
+        color: $primary-color;
+    }
+
+    div:nth-of-type(1) {
+        color: #2319195c;
+        width: 50%;
+        height: 28px;
+        margin: 50px auto;
+        border-radius: 16px;
+        padding: 5px 0 5px 5px;
+        background-color: #cddbe275;
+
+        span {
+            margin: -5px 0 0;
+            height: 28px;
+            float: right;
+            border-radius: 19px;
+            width: 120px;
+            padding: 5px;
+            text-align: center;
+            color: #fff;
+            background-color: $primary-color;
+            text-transform: uppercase;
+        }
+    }
+
+    .scenery{
+
+        img:nth-child(1) {
+            height: 40px;
+            position: absolute;
+            top: 7%;
+            left: 11%;
+        }
+
+        img:nth-child(2) {
+            height: 38px;
+            position: absolute;
+            top: 5%;
+            right: 10%;
+        } 
+
+        img:nth-child(3) {
+            height: 40px;
+            position: absolute;
+            top: 78%;
+            left: 35%;
+        }
+
+        
+    }
+
+}
